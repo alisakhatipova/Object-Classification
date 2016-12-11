@@ -1,7 +1,7 @@
-Хатипова Алиса Рашидовна 321 группа
-выполнены все дополнительные части работы
+Program realizes binary classification of images, using basic machine learning techniques. Working stages:
+image loading, feature vector computation (HOG), classifier learning, classifier testing. In project  ObjectClassification-SSE computation is accelerated using SSE.
  
-произведена мультиклассовая классификация (обученная модель в файле model_multiclass.txt)
-добавлена реализация нелинейного ядра SVM (смотрите в коде ниже комментария //add unlinear SVM kernel)
-добавлена пирамида дескрипторов (//add descriptor pyramid)
-добавлены цветовые признаки (//add colors_features)
+learned model in file model_multiclass.txt
+added unlinear SVM kernel
+added descriptor pyramid
+added colors_features
